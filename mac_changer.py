@@ -37,7 +37,7 @@ def find_mac(interface):
 
 
 # Assigning variables to functions.
-(options, arguments) = get_arguments()
+options = get_arguments()[0]
 current_mac = find_mac(options.interface)
 
 # Main process.
